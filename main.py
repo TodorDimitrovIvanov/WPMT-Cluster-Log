@@ -43,6 +43,7 @@ async def entry_save(post_data: LogSave):
         "response": "Success!"
     }
 
+
 @app.post("/log/get", status_code=200)
 async def entry_get(post_data: LogGet):
     post_data_dict = post_data.dict()
