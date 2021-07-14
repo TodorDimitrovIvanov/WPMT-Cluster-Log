@@ -49,8 +49,8 @@ async def entry_save(post_data: LogSave):
     except Exception as e:
         raise HTTPException(
             status_code=500,
-            detail=repr(e),
-            headers={"X-Error": repr(e)}
+            detail=str(e),
+            headers={"X-Error": str(e)}
         )
 
 
