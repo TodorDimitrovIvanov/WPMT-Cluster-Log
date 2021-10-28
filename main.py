@@ -9,8 +9,8 @@ import datetime
 app = FastAPI()
 
 __master_url__ = "https://master.wpmt.org"
-__cluster_name__ = "cluster-eu01.wpmt.org"
-__cluster_url__ = "https://cluster-eu01.wpmt.tech"
+__cluster_name__ = "cluster-eu02.wpmt.org"
+__cluster_url__ = "https://cluster-eu02.wpmt.tech"
 __cluster_locale__ = "EU"
 __log_path__ = path.dirname("/var/log/wpmt/")
 
