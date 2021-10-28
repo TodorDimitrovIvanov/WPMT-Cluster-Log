@@ -83,4 +83,4 @@ async def entry_get(post_data: LogGet):
 
 if __name__ == "__main__":
     # Here we must use 127.0.0.1 as K8s doesn't seem to recognize localhost ....
-    uvicorn.run(app, host='127.0.0.1', port=6902)
+    uvicorn.run(app, host='0.0.0.0', port=6902)
